@@ -1,0 +1,417 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+<title>Akt Ban Portal ⚡ | Premium BAN Codes</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@500;700;900&family=Rajdhani:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+<style>
+:root{
+  --bg:#07070f;
+  --bg2:#0c0e1a;
+  --card:rgba(20,24,45,.65);
+  --stroke:rgba(120,130,255,.18);
+  --gold:#f5c518;
+  --violet:#8b5cf6;
+  --cyan:#22d3ee;
+  --pink:#ec4899;
+  --green:#22c55e;
+  --txt:#eef0ff;
+  --muted:#9aa3c7;
+  --wa:#25D366;
+}
+*{box-sizing:border-box;margin:0;padding:0}
+html{scroll-behavior:smooth}
+body{
+  font-family:'Rajdhani',sans-serif;
+  background:var(--bg);
+  color:var(--txt);
+  min-height:100vh;
+  overflow-x:hidden;
+  position:relative;
+}
+/* Animated background */
+body::before{
+  content:"";position:fixed;inset:0;z-index:-2;
+  background:
+    radial-gradient(900px 500px at 15% -10%, rgba(139,92,246,.22), transparent 60%),
+    radial-gradient(800px 500px at 100% 10%, rgba(34,211,238,.16), transparent 55%),
+    radial-gradient(700px 600px at 50% 120%, rgba(245,197,24,.12), transparent 60%),
+    linear-gradient(180deg,#07070f,#0a0c18 40%,#07070f);
+}
+.bg-grid{position:fixed;inset:0;z-index:-1;opacity:.35;
+  background-image:linear-gradient(rgba(120,130,255,.07) 1px,transparent 1px),
+                   linear-gradient(90deg,rgba(120,130,255,.07) 1px,transparent 1px);
+  background-size:42px 42px;
+  mask:radial-gradient(circle at 50% 30%,#000 40%,transparent 85%);
+  animation:gridMove 18s linear infinite;
+}
+@keyframes gridMove{to{background-position:42px 42px}}
+.float-orb{position:fixed;border-radius:50%;filter:blur(60px);z-index:-1;opacity:.5;animation:float 14s ease-in-out infinite}
+.orb1{width:300px;height:300px;background:var(--violet);top:-60px;left:-60px}
+.orb2{width:260px;height:260px;background:var(--cyan);bottom:0;right:-50px;animation-delay:3s}
+@keyframes float{0%,100%{transform:translateY(0)}50%{transform:translateY(30px)}}
+
+.container{max-width:1200px;margin:0 auto;padding:0 20px}
+
+/* NAV */
+header{position:sticky;top:0;z-index:50;backdrop-filter:blur(14px);
+  background:rgba(7,7,15,.7);border-bottom:1px solid var(--stroke)}
+.nav{display:flex;align-items:center;justify-content:space-between;padding:14px 20px;max-width:1200px;margin:auto}
+.logo{display:flex;align-items:center;gap:10px;font-family:'Orbitron';font-weight:900;font-size:1.35rem;letter-spacing:1px}
+.logo .bolt{width:38px;height:38px;border-radius:10px;display:grid;place-items:center;
+  background:linear-gradient(135deg,var(--gold),var(--violet));color:#0a0a14;box-shadow:0 0 22px rgba(245,197,24,.5)}
+.logo span b{color:var(--gold)}
+.nav-links{display:flex;gap:8px}
+.nav-links a{color:var(--muted);text-decoration:none;font-weight:600;padding:8px 14px;border-radius:10px;transition:.25s;font-size:.95rem}
+.nav-links a:hover{color:#fff;background:rgba(120,130,255,.12)}
+.burger{display:none;font-size:1.5rem;color:#fff;background:none;border:0;cursor:pointer}
+
+/* HERO */
+.hero{text-align:center;padding:70px 0 30px;position:relative}
+.badge{display:inline-flex;align-items:center;gap:8px;padding:7px 16px;border:1px solid var(--stroke);
+  border-radius:40px;font-size:.82rem;color:var(--muted);background:rgba(20,24,45,.5);margin-bottom:22px}
+.badge i{color:var(--green);animation:pulse 1.6s infinite}
+@keyframes pulse{0%,100%{opacity:1}50%{opacity:.4}}
+h1.hero-title{font-family:'Orbitron';font-size:clamp(2.2rem,6vw,4.2rem);font-weight:900;line-height:1.05;
+  background:linear-gradient(90deg,#fff,var(--gold),var(--violet),var(--cyan));
+  -webkit-background-clip:text;background-clip:text;-webkit-text-fill-color:transparent;
+  animation:shine 6s linear infinite;background-size:200%}
+@keyframes shine{to{background-position:200%}}
+.hero p{color:var(--muted);max-width:640px;margin:20px auto;font-size:1.12rem;line-height:1.6}
+.hero-cta{display:flex;gap:14px;justify-content:center;margin-top:30px;flex-wrap:wrap}
+.btn{font-family:'Rajdhani';font-weight:700;font-size:1.02rem;padding:13px 26px;border-radius:13px;border:0;cursor:pointer;
+  transition:.25s;text-decoration:none;display:inline-flex;align-items:center;gap:9px;letter-spacing:.3px}
+.btn-gold{background:linear-gradient(135deg,var(--gold),#ffde59);color:#1a1300;box-shadow:0 10px 30px rgba(245,197,24,.35)}
+.btn-gold:hover{transform:translateY(-3px);box-shadow:0 16px 40px rgba(245,197,24,.5)}
+.btn-ghost{background:rgba(255,255,255,.05);border:1px solid var(--stroke);color:#fff}
+.btn-ghost:hover{background:rgba(255,255,255,.1)}
+.btn-wa{background:var(--wa);color:#06281a}
+.btn-wa:hover{transform:translateY(-3px);box-shadow:0 12px 30px rgba(37,211,102,.4)}
+.stats{display:flex;gap:18px;justify-content:center;flex-wrap:wrap;margin-top:46px}
+.stat{background:var(--card);border:1px solid var(--stroke);border-radius:16px;padding:18px 26px;min-width:150px;backdrop-filter:blur(8px)}
+.stat b{font-family:'Orbitron';font-size:1.7rem;color:var(--gold);display:block}
+.stat small{color:var(--muted)}
+
+/* SECTION */
+section{padding:54px 0}
+.sec-head{text-align:center;margin-bottom:34px}
+.sec-head h2{font-family:'Orbitron';font-size:clamp(1.7rem,4vw,2.6rem);font-weight:800}
+.sec-head p{color:var(--muted);margin-top:10px;font-size:1.05rem}
+.tagline{color:var(--gold);font-weight:700;letter-spacing:2px;text-transform:uppercase;font-size:.8rem;margin-bottom:10px}
+
+/* PRICING */
+.tiers{display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:24px}
+.tier{position:relative;background:var(--card);border:1px solid var(--stroke);border-radius:22px;padding:30px 26px;
+  backdrop-filter:blur(10px);transition:.3s;overflow:hidden}
+.tier:hover{transform:translateY(-8px);border-color:rgba(245,197,24,.5)}
+.tier.featured{border:1px solid var(--gold);box-shadow:0 0 40px rgba(245,197,24,.18)}
+.tier .ribbon{position:absolute;top:16px;right:-42px;transform:rotate(35deg);background:var(--gold);color:#1a1300;
+  font-weight:800;font-size:.72rem;padding:5px 46px;letter-spacing:1px}
+.tier h3{font-family:'Orbitron';font-size:1.35rem;display:flex;align-items:center;gap:10px}
+.tier .price{font-family:'Orbitron';font-size:2.4rem;font-weight:900;margin:14px 0;color:#fff}
+.tier .price small{font-size:1rem;color:var(--muted)}
+.tier ul{list-style:none;margin:18px 0}
+.tier li{padding:8px 0;color:var(--muted);display:flex;gap:10px;font-size:1rem}
+.tier li i{color:var(--green);margin-top:3px}
+.code-box{margin-top:18px;background:rgba(7,7,15,.6);border:1px dashed var(--stroke);border-radius:12px;padding:14px;text-align:center}
+.code-box small{color:var(--muted);display:block;margin-bottom:8px;font-size:.78rem;text-transform:uppercase;letter-spacing:1px}
+.code-val{font-family:'Orbitron';font-weight:700;font-size:1.1rem;color:var(--gold);letter-spacing:2px}
+
+/* PORTAL (main tool) */
+.portal{background:var(--card);border:1px solid var(--stroke);border-radius:26px;padding:34px;backdrop-filter:blur(12px);
+  box-shadow:0 20px 60px rgba(0,0,0,.4)}
+.steps{display:flex;gap:8px;flex-wrap:wrap;margin-bottom:30px}
+.step-pill{font-size:.85rem;padding:8px 16px;border-radius:30px;border:1px solid var(--stroke);color:var(--muted);font-weight:600}
+.step-pill.active{background:linear-gradient(135deg,var(--violet),var(--cyan));color:#fff;border-color:transparent}
+.grid2{display:grid;grid-template-columns:1fr 1fr;gap:26px}
+.field{margin-bottom:18px}
+label{display:block;color:var(--muted);font-size:.9rem;font-weight:600;margin-bottom:7px}
+input,select,textarea{width:100%;padding:14px 16px;border-radius:12px;border:1px solid var(--stroke);
+  background:rgba(7,7,15,.7);color:#fff;font-family:'Rajdhani';font-size:1rem;transition:.2s}
+input:focus,select:focus,textarea:focus{outline:none;border-color:var(--violet);box-shadow:0 0 0 3px rgba(139,92,246,.2)}
+textarea{resize:vertical;min-height:90px}
+.pay-card{background:rgba(7,7,15,.6);border:1px solid var(--stroke);border-radius:16px;padding:22px}
+.pay-row{display:flex;justify-content:space-between;padding:11px 0;border-bottom:1px dashed rgba(255,255,255,.08);font-size:1rem}
+.pay-row:last-child{border:0}
+.pay-row span:first-child{color:var(--muted)}
+.pay-row span:last-child{font-weight:700}
+.copy-btn{cursor:pointer;color:var(--cyan);border:0;background:none;font-family:inherit;font-size:.85rem}
+
+.result{margin-top:24px;text-align:center}
+.big-code{font-family:'Orbitron';font-size:clamp(1.6rem,5vw,2.8rem);font-weight:900;letter-spacing:5px;
+  background:linear-gradient(90deg,var(--gold),var(--cyan));-webkit-background-clip:text;background-clip:text;-webkit-text-fill-color:transparent;
+  padding:22px;border-radius:16px;background-color:rgba(7,7,15,.5);border:1px solid var(--stroke);margin:14px 0}
+.reveal-label{color:var(--muted);font-size:.85rem;text-transform:uppercase;letter-spacing:1px}
+.hidden{display:none}
+
+/* REPORT list */
+.report-list{margin-top:22px;display:flex;flex-direction:column;gap:10px;max-height:280px;overflow-y:auto}
+.report-item{background:rgba(7,7,15,.5);border:1px solid var(--stroke);border-radius:12px;padding:14px;display:flex;justify-content:space-between;gap:10px;align-items:center}
+.report-item small{color:var(--muted)}
+.report-item .code{font-family:'Orbitron';color:var(--gold);font-weight:700}
+
+.owner-card{display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:18px}
+.owner-box{background:var(--card);border:1px solid var(--stroke);border-radius:16px;padding:24px;text-align:center;backdrop-filter:blur(8px)}
+.owner-box .ic{font-size:2rem;margin-bottom:12px}
+.owner-box .lbl{color:var(--muted);font-size:.8rem;text-transform:uppercase;letter-spacing:1px}
+.owner-box .val{font-size:1.15rem;font-weight:700;margin-top:6px}
+
+footer{border-top:1px solid var(--stroke);padding:30px 0;text-align:center;color:var(--muted);margin-top:30px}
+footer a{color:var(--gold);text-decoration:none}
+
+.toast{position:fixed;bottom:24px;left:50%;transform:translateX(-50%) translateY(120px);
+  background:linear-gradient(135deg,var(--violet),var(--cyan));color:#fff;padding:14px 26px;border-radius:40px;
+  font-weight:700;z-index:100;transition:.4s;box-shadow:0 10px 40px rgba(0,0,0,.5)}
+.toast.show{transform:translateX(-50%) translateY(0)}
+
+@media(max-width:820px){
+  .nav-links{position:fixed;top:66px;right:0;flex-direction:column;background:rgba(7,7,15,.98);width:70%;max-width:300px;
+    height:calc(100vh - 66px);padding:24px;transform:translateX(110%);transition:.3s;border-left:1px solid var(--stroke)}
+  .nav-links.open{transform:translateX(0)}
+  .burger{display:block}
+  .grid2{grid-template-columns:1fr}
+  .portal{padding:22px}
+}
+::-webkit-scrollbar{width:8px}
+::-webkit-scrollbar-thumb{background:var(--violet);border-radius:8px}
+</style>
+</head>
+<body>
+<div class="bg-grid"></div>
+<div class="float-orb orb1"></div>
+<div class="float-orb orb2"></div>
+
+<header>
+  <div class="nav">
+    <div class="logo"><span class="bolt"><i class="fa-solid fa-bolt"></i></span><span>AKT <b>BAN</b> PORTAL</span></div>
+    <button class="burger" onclick="document.getElementById('nl').classList.toggle('open')"><i class="fa-solid fa-bars"></i></button>
+    <nav class="nav-links" id="nl">
+      <a href="#pricing">Pricing</a>
+      <a href="#portal">Ban Tool</a>
+      <a href="#report">Reports</a>
+      <a href="#owner">Contact</a>
+    </nav>
+  </div>
+</header>
+
+<div class="container">
+  <!-- HERO -->
+  <div class="hero">
+    <div class="badge"><i class="fa-solid fa-circle"></i> SYSTEM ONLINE • Instant Delivery • Secure</div>
+    <h1 class="hero-title">AKT BAN PORTAL</h1>
+    <p>Premium instant BAN codes for targeted accounts. Pay, get your code, and request the <b>Bailey Code</b> straight to WhatsApp. Fast, private & guaranteed.</p>
+    <div class="hero-cta">
+      <a href="#portal" class="btn btn-gold"><i class="fa-solid fa-crosshairs"></i> Start Banning</a>
+      <a href="#pricing" class="btn btn-ghost"><i class="fa-solid fa-tags"></i> View Pricing</a>
+    </div>
+    <div class="stats">
+      <div class="stat"><b>9</b><small>Active Codes</small></div>
+      <div class="stat"><b>24/7</b><small>Support</small></div>
+      <div class="stat"><b>&lt;60s</b><small>Delivery</small></div>
+      <div class="stat"><b>100%</b><small>Success Rate</small></div>
+    </div>
+  </div>
+
+  <!-- PRICING -->
+  <section id="pricing">
+    <div class="sec-head">
+      <div class="tagline">Choose Your Plan</div>
+      <h2>Premium Plans & Codes</h2>
+      <p>Each plan includes its own dedicated BAN code. Select a plan and it will be used to generate your personal BAN key.</p>
+    </div>
+    <div class="tiers" id="tiers"></div>
+  </section>
+
+  <!-- PORTAL TOOL -->
+  <section id="portal">
+    <div class="sec-head">
+      <div class="tagline">The Engine</div>
+      <h2>Ban Generator</h2>
+      <p>Enter the target number, pick a plan, confirm payment, then request your <b>WhatsApp Bailey Code</b>.</p>
+    </div>
+    <div class="portal">
+      <div class="steps" id="steps">
+        <div class="step-pill active" data-s="1">1. Target</div>
+        <div class="step-pill" data-s="2">2. Plan</div>
+        <div class="step-pill" data-s="3">3. Payment</div>
+        <div class="step-pill" data-s="4">4. Code</div>
+      </div>
+
+      <div class="grid2">
+        <div>
+          <div class="field">
+            <label><i class="fa-solid fa-user"></i> Target Phone Number (International)</label>
+            <input type="tel" id="target" placeholder="+234 803 000 0000" oninput="this.value=this.value.replace(/[^+\d\s]/g,'')">
+          </div>
+          <div class="field">
+            <label><i class="fa-solid fa-shield-halved"></i> Verification (Opay account holder name)</label>
+            <input type="text" id="acctName" placeholder="CHRISTANA Godwin Okon">
+          </div>
+          <div class="field">
+            <label><i class="fa-solid fa-tag"></i> Select Plan / Code</label>
+            <select id="plan"></select>
+          </div>
+          <div class="field">
+            <label><i class="fa-solid fa-hashtag"></i> Promo Code (optional)</label>
+            <input type="text" id="promo" placeholder="Leave blank or enter one from above">
+          </div>
+          <button class="btn btn-gold" style="width:100%" onclick="generate()"><i class="fa-solid fa-wand-magic-sparkles"></i> Generate Ban Code</button>
+        </div>
+
+        <div class="pay-card">
+          <h3 style="margin-bottom:14px;font-family:Orbitron"><i class="fa-solid fa-money-bill-wave" style="color:var(--green)"></i> Payment Details</h3>
+          <div class="pay-row"><span>Platform</span><span>OPAY</span></div>
+          <div class="pay-row"><span>Account Number</span><span>9066760078 <button class="copy-btn" onclick="cp('9066760078')">copy</button></span></div>
+          <div class="pay-row"><span>Account Name</span><span>CHRISTANA Godwin Okon</span></div>
+          <div class="pay-row"><span>Bank</span><span>Opay Wallet</span></div>
+          <div class="pay-row"><span>Owner</span><span>Zeus</span></div>
+          <div class="pay-row"><span>Email</span><span>ge5853987@gmail.com</span></div>
+          <div class="pay-row"><span>WhatsApp</span><span>+234 906 676 0078 <button class="copy-btn" onclick="cp('2349066760078')">copy</button></span></div>
+          <p style="color:var(--muted);font-size:.85rem;margin-top:14px"><i class="fa-solid fa-circle-info"></i> Send screenshot of payment to WhatsApp before requesting your Bailey Code.</p>
+        </div>
+      </div>
+
+      <!-- RESULT -->
+      <div class="result hidden" id="result">
+        <div class="reveal-label">Your Personalized BAN Key 🔐</div>
+        <div class="big-code" id="banCode">--</div>
+        <p style="color:var(--muted);margin-bottom:18px">Use this key to ban the entered number under your selected plan. Now send it to the owner to activate.</p>
+        <div class="hero-cta">
+          <a href="#" class="btn btn-wa" id="waReq"><i class="fa-brands fa-whatsapp"></i> Request Bailey Code (WhatsApp)</a>
+          <button class="btn btn-ghost" onclick="saveReport()"><i class="fa-solid fa-folder-open"></i> Save to Reports</button>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- REPORTS -->
+  <section id="report">
+    <div class="sec-head">
+      <div class="tagline">Dashboard</div>
+      <h2>Your Reports</h2>
+      <p>Saved locally on this device. Click "Copy All" to forward to the owner.</p>
+    </div>
+    <div class="portal">
+      <button class="btn btn-ghost" onclick="copyAllReports()"><i class="fa-solid fa-copy"></i> Copy All Reports</button>
+      <button class="btn btn-wa" style="margin-left:10px" onclick="waAllReports()"><i class="fa-brands fa-whatsapp"></i> Send All via WhatsApp</button>
+      <div class="report-list" id="reportList"></div>
+    </div>
+  </section>
+
+  <!-- OWNER -->
+  <section id="owner">
+    <div class="sec-head"><h2>Contact Owner</h2><p>Reach Zeus directly for support, activation & refunds.</p></div>
+    <div class="owner-card">
+      <div class="owner-box"><div class="ic" style="color:var(--wa)"><i class="fa-brands fa-whatsapp"></i></div><div class="lbl">WhatsApp</div><div class="val">+234 906 676 0078</div>
+        <a class="btn btn-wa" style="margin-top:14px" target="_blank" href="https://wa.me/2349066760078?text=Hello%20Zeus%2C%20I%20need%20help%20with%20AKT%20Ban%20Portal"><i class="fa-solid fa-paper-plane"></i> Chat</a></div>
+      <div class="owner-box"><div class="ic" style="color:var(--violet)"><i class="fa-solid fa-envelope"></i></div><div class="lbl">Email</div><div class="val">ge5853987@gmail.com</div>
+        <a class="btn btn-ghost" style="margin-top:14px" href="mailto:ge5853987@gmail.com"><i class="fa-solid fa-paper-plane"></i> Email</a></div>
+      <div class="owner-box"><div class="ic" style="color:var(--gold)"><i class="fa-solid fa-user-tie"></i></div><div class="lbl">Owner</div><div class="val">Zeus</div>
+        <a class="btn btn-gold" style="margin-top:14px" target="_blank" href="https://wa.me/2349066760078"><i class="fa-solid fa-circle-check"></i> Verify</a></div>
+    </div>
+  </section>
+</div>
+
+<footer>
+  <div class="logo" style="justify-content:center;margin-bottom:12px"><span class="bolt"><i class="fa-solid fa-bolt"></i></span><span>AKT <b>BAN</b> PORTAL</span></div>
+  <p>© 2026 AKT Ban Portal — Owned by <b style="color:var(--gold)">Zeus</b>. All rights reserved.</p>
+  <p style="margin-top:8px">Powered by <a href="https://github.com">GitHub Pages</a></p>
+</footer>
+
+<div class="toast" id="toast">Copied ✓</div>
+
+<script>
+const PLANS = [
+  {id:'weekly',  name:'WEEKLY',   price:'₦1,500',  days:'7 days',   icon:'fa-calendar-week', feat:false,
+   perks:['1 Weekly BAN code','Instant delivery','Basic support'],
+   codes:['WKL-AKT-7A3F','WKL-AKT-9B21','WKL-AKT-C4D0']},
+  {id:'monthly', name:'MONTHLY',  price:'₦4,000',  days:'30 days',  icon:'fa-calendar', feat:true,
+   perks:['3 Monthly BAN codes','Priority support','Free re-ban once','No throttling'],
+   codes:['MNT-AKT-X1Z8','MNT-AKT-P7L2','MNT-AKT-Q9R4']},
+  {id:'lifetime',name:'LIFETIME', price:'₦12,000', days:'Forever',  icon:'fa-infinity', feat:false,
+   perks:['3 Lifetime BAN codes','Lifetime access','VIP priority support','All features unlocked','Early access to updates'],
+   codes:['LTF-AKT-ZZ01','LTF-AKT-AA99','LTF-AKT-BB45']}
+];
+
+const WA_NUM='2349066760078';
+
+// Render pricing
+function renderTiers(){
+  const wrap=document.getElementById('tiers');
+  wrap.innerHTML = PLANS.map(p=>`
+   <div class="tier ${p.feat?'featured':''}">
+     ${p.feat?'<div class="ribbon">POPULAR</div>':''}
+     <h3><i class="fa-solid ${p.icon}" style="color:var(--gold)"></i> ${p.name}</h3>
+     <div class="price">${p.price}<small> / ${p.days}</small></div>
+     <ul>${p.perks.map(x=>`<li><i class="fa-solid fa-check"></i>${x}</li>`).join('')}</ul>
+     <div class="code-box"><small>Included Codes</small>
+       ${p.codes.map(c=>`<div class="code-val">${c}</div>`).join('<br>')}</div>
+   </div>`).join('');
+
+  // populate select
+  const sel=document.getElementById('plan');
+  sel.innerHTML = PLANS.map(p=>`<option value="${p.id}">${p.name} — ${p.price} (${p.days})</option>`).join('');
+}
+
+function setStep(n){document.querySelectorAll('.step-pill').forEach(s=>s.classList.toggle('active',+s.dataset.s===n))}
+
+function cp(v){navigator.clipboard.writeText(v);toast(v+' copied')}
+function toast(m){const t=document.getElementById('toast');t.textContent=m;t.classList.add('show');setTimeout(()=>t.classList.remove('show'),1800)}
+
+// Generate a BAN key bound to the number + plan
+function generate(){
+  const num=document.getElementById('target').value.trim();
+  const planId=document.getElementById('plan').value;
+  const promo=(document.getElementById('promo').value||'').toUpperCase().trim();
+  if(num.length<9){toast('Enter a valid number');setStep(1);return;}
+  const plan=PLANS.find(p=>p.id===planId);
+  if(promo && !plan.codes.includes(promo)){toast('Invalid promo code');return;}
+  // deterministic-ish random code
+  const seed=num.replace(/\D/g,'')+(promo||plan.id)+Date.now();
+  const chars='ABCDEFGHJKLMNPQRSTUVWXYZ23456789';
+  let rand='';for(let i=0;i<6;i++){rand+=chars[Math.floor(Math.random()*chars.length)]}
+  const key=`AKT-${planId.toUpperCase().slice(0,3)}-${seed.slice(-4)}${rand}`;
+  document.getElementById('banCode').textContent=key;
+  const msg=`*AKT BAN PORTAL REQUEST*%0ATarget: %20${num}%0APlan: %20${plan.name}%0ABan Key: %20${key}%0APromo: %20${promo||'None'}%0APlease send my Bailey Code.`;
+  document.getElementById('waReq').href=`https://wa.me/${WA_NUM}?text=${msg}`;
+  document.getElementById('result').classList.remove('hidden');
+  window.__last={num,plan:plan.name,key,promo};
+  setStep(4);
+  document.getElementById('result').scrollIntoView({behavior:'smooth',block:'center'});
+  toast('BAN key generated 🎉');
+}
+
+// reports
+function loadReports(){return JSON.parse(localStorage.getItem('akt_reports')||'[]')}
+function saveReport(){
+  if(!window.__last){toast('Generate a code first');return}
+  const r=loadReports();
+  r.unshift({...window.__last,date:new Date().toLocaleString()});
+  localStorage.setItem('akt_reports',JSON.stringify(r));
+  renderReports();toast('Saved to reports');
+}
+function renderReports(){
+  const list=document.getElementById('reportList');const r=loadReports();
+  if(!r.length){list.innerHTML='<p style="color:var(--muted)">No reports yet. Generate and save a code above.</p>';return}
+  list.innerHTML=r.map(x=>`<div class="report-item"><div><b>${x.num}</b><br><small>${x.date} • ${x.plan}</small></div><div class="code">${x.key}</div></div>`).join('');
+}
+function copyAllReports(){
+  const r=loadReports();if(!r.length){toast('Nothing to copy');return}
+  const txt=r.map((x,i)=>`${i+1}. ${x.num} [${x.plan}] Key:${x.key}`).join('\n');
+  navigator.clipboard.writeText(txt);toast('Reports copied');
+}
+function waAllReports(){
+  const r=loadReports();if(!r.length){toast('Nothing to send');return}
+  const txt=r.map((x,i)=>`${i+1}. ${x.num} [${x.plan}] Key: ${x.key}`).join('\n');
+  window.open(`https://wa.me/${WA_NUM}?text=*AKT BATCH REPORT*\n${encodeURIComponent(txt)}`,'_blank');
+}
+
+renderTiers();renderReports();
+setInterval(()=>setStep((+document.querySelector('.step-pill.active').dataset.s)%4+1),4000);
+</script>
+</body>
+</html>
